@@ -8,28 +8,28 @@
 #include <string>
 
 enum TitleMenu {
-	‰‚ß‚©‚ç, ‘±‚«‚©‚ç, İ’è, I—¹,
+	åˆã‚ã‹ã‚‰, ç¶šãã‹ã‚‰, è¨­å®š, çµ‚äº†,
 };
 
 enum MatiChange {
-	‘Ò‚¿ó‚¯‰æ‘œ‚ğ•ÏX‚·‚é, ‘Ò‚¿ó‚¯‰æ‘œ‚ğ•ÏX‚µ‚È‚¢
+	å¾…ã¡å—ã‘ç”»åƒã‚’å¤‰æ›´ã™ã‚‹, å¾…ã¡å—ã‘ç”»åƒã‚’å¤‰æ›´ã—ãªã„
 };
 
 enum GameSeen {
-	ƒ^ƒCƒgƒ‹, ƒ^ƒCƒgƒ‹ƒƒjƒ…[, ƒ^ƒCƒgƒ‹ƒƒjƒ…[’†,
-	–¼‘O“ü—Í, –¼‘O“ü—ÍŠm’è, –¼‘O“ü—Í–¢Šm’è,
-	‰ŠúƒLƒƒƒ‰‚ğ‘I‘ğ,
-	ƒƒjƒ…[ƒp[ƒeƒBİ’è,
-	ƒƒjƒ…[‘•”õˆê——,
-	ƒƒjƒ…[ƒZ[ƒu, ƒZ[ƒu’†,
-	ƒƒjƒ…[ƒLƒƒƒ‰ˆê——,
-	ƒƒjƒ…[ƒKƒ`ƒƒ, ƒKƒ`ƒƒÚ×,
-	ƒƒjƒ…[ƒNƒGƒXƒg, ƒNƒGƒXƒg‘I‘ğ,
-	ƒƒjƒ…[ƒ\ƒtƒg‰ğà,
-	‘Ò‚¿ó‚¯‰æ–Ê, ƒZƒŠƒt˜g,
-	‘•”õ, ƒLƒƒƒ‰, ƒQ[ƒ€ƒI[ƒo[, ƒGƒ“ƒfƒBƒ“ƒO, ƒI[ƒvƒjƒ“ƒO,
-	í“¬, í‚¤, í‚¤ƒ^ƒQ, –‚–@, –‚–@Ú×, –‚–@ƒ^ƒQ, “Á‹Z, “Á‹ZÚ×, “Á‹Zƒ^ƒQ, “¦‚°‚é, “¦‚°‚é¸”s,
-	ƒ{ƒXí“¬
+	ã‚¿ã‚¤ãƒˆãƒ«, ã‚¿ã‚¤ãƒˆãƒ«ãƒ¡ãƒ‹ãƒ¥ãƒ¼, ã‚¿ã‚¤ãƒˆãƒ«ãƒ¡ãƒ‹ãƒ¥ãƒ¼ä¸­,
+	åå‰å…¥åŠ›, åå‰å…¥åŠ›ç¢ºå®š, åå‰å…¥åŠ›æœªç¢ºå®š,
+	åˆæœŸã‚­ãƒ£ãƒ©ã‚’é¸æŠ,
+	ãƒ¡ãƒ‹ãƒ¥ãƒ¼ãƒ‘ãƒ¼ãƒ†ã‚£è¨­å®š,
+	ãƒ¡ãƒ‹ãƒ¥ãƒ¼è£…å‚™ä¸€è¦§,
+	ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã‚»ãƒ¼ãƒ–, ã‚»ãƒ¼ãƒ–ä¸­,
+	ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã‚­ãƒ£ãƒ©ä¸€è¦§,
+	ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã‚¬ãƒãƒ£, ã‚¬ãƒãƒ£è©³ç´°,
+	ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã‚¯ã‚¨ã‚¹ãƒˆ, ã‚¯ã‚¨ã‚¹ãƒˆé¸æŠ,
+	ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã‚½ãƒ•ãƒˆè§£èª¬,
+	å¾…ã¡å—ã‘ç”»é¢, ã‚»ãƒªãƒ•æ ,
+	è£…å‚™, ã‚­ãƒ£ãƒ©, ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼, ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°, ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°,
+	æˆ¦é—˜, æˆ¦ã†, æˆ¦ã†ã‚¿ã‚², é­”æ³•, é­”æ³•è©³ç´°, é­”æ³•ã‚¿ã‚², ç‰¹æŠ€, ç‰¹æŠ€è©³ç´°, ç‰¹æŠ€ã‚¿ã‚², é€ƒã’ã‚‹, é€ƒã’ã‚‹å¤±æ•—,
+	ãƒœã‚¹æˆ¦é—˜
 };
 
 class Player {
@@ -38,16 +38,16 @@ private:
 	errno_t err = -1;
 	char txt_name[20];
 	char txt_name1[20];
-	char kara[256] = "ƒeƒXƒgƒvƒŒƒCƒ„[";
+	char kara[256] = "ãƒ†ã‚¹ãƒˆãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼";
 public:
 	int mapX, mapY;
 	char* Name;
 	GameSeen MapName;
-	int Num_PT; // ‚P`‚Sl@¦‰‚ß‚Í’N‚àŒÙ‚Á‚Ä‚¢‚È‚¢‚Ì‚ÅA0l
+	int Num_PT; // ï¼‘ï½ï¼”äººã€€â€»åˆã‚ã¯èª°ã‚‚é›‡ã£ã¦ã„ãªã„ã®ã§ã€0äºº
 	Player()
 	{
 		Name = kara;
-		MapName = ‘Ò‚¿ó‚¯‰æ–Ê;
+		MapName = å¾…ã¡å—ã‘ç”»é¢;
 		mapX = 320, mapY = 200;
 		Num_PT = 0;
 	}
@@ -58,7 +58,7 @@ public:
 
 int Player::write(Player Data, const char* fileName)
 {
-	err = fopen_s(&file, fileName, "w");//ƒoƒCƒiƒŠƒtƒ@ƒCƒ‹‚ğŠJ‚­
+	err = fopen_s(&file, fileName, "w");//ãƒã‚¤ãƒŠãƒªãƒ•ã‚¡ã‚¤ãƒ«ã‚’é–‹ã
 	if (err != 0) {
 		return -1;
 	}
@@ -68,7 +68,7 @@ int Player::write(Player Data, const char* fileName)
 	fprintf(file, "%d\n", Data.MapName);
 	fprintf(file, "%d\n", Data.Num_PT);
 
-	fclose(file);//ƒtƒ@ƒCƒ‹‚ğ•Â‚¶‚é
+	fclose(file);//ãƒ•ã‚¡ã‚¤ãƒ«ã‚’é–‰ã˜ã‚‹
 	return 0;
 }
 
@@ -106,7 +106,7 @@ private:
 	char txt_name4[20];
 public:
 	char* name;
-	char kara[256] = "‹óƒf[ƒ^";
+	char kara[256] = "ç©ºãƒ‡ãƒ¼ã‚¿";
 	int level;
 	int str, maso, def, mdef, hp;
 	int imgNum;
@@ -129,7 +129,7 @@ public:
 
 int PTMenber::write(PTMenber Data, const char* fileName)
 {
-    err = fopen_s(&file, fileName, "w");//ƒoƒCƒiƒŠƒtƒ@ƒCƒ‹‚ğŠJ‚­
+    err = fopen_s(&file, fileName, "w");//ãƒã‚¤ãƒŠãƒªãƒ•ã‚¡ã‚¤ãƒ«ã‚’é–‹ã
 	if (err != 0) {
 		return -1;
 	}
@@ -143,7 +143,7 @@ int PTMenber::write(PTMenber Data, const char* fileName)
 	fprintf(file, "%s\n", Data.zokusei);
 	fprintf(file, "%d\n", Data.imgNum);
 	fprintf(file, "%s\n", Data.zukan);
-	fclose(file);//ƒtƒ@ƒCƒ‹‚ğ•Â‚¶‚é
+	fclose(file);//ãƒ•ã‚¡ã‚¤ãƒ«ã‚’é–‰ã˜ã‚‹
 	return 0;
 }
 
@@ -182,13 +182,13 @@ int PTMenber::lord(PTMenber& Data, const char* fileName)
 }
 
 Player mPlayer;
-PTMenber mPt[2];   // TODO:‰æ‘œƒtƒ@ƒCƒ‹‚ÌƒpƒX“Ç‚İ‚İ@ƒGƒlƒ~[‚Í‹óƒf[ƒ^‚ğg‚¤
-PTMenber mMon[10]; // TODO:ƒKƒ`ƒƒ‚Åƒhƒƒbƒv‚µ‚½ƒ‚ƒ“ƒXƒ^[‚ğ“Ç‚İ‘‚«‚·‚éi¬’·‚ ‚è
+PTMenber mPt[2];   // TODO:ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«ã®ãƒ‘ã‚¹èª­ã¿è¾¼ã¿ã€€ã‚¨ãƒãƒŸãƒ¼ã¯ç©ºãƒ‡ãƒ¼ã‚¿ã‚’ä½¿ã†
+PTMenber mMon[10]; // TODO:ã‚¬ãƒãƒ£ã§ãƒ‰ãƒ­ãƒƒãƒ—ã—ãŸãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼ã‚’èª­ã¿æ›¸ãã™ã‚‹ï¼ˆæˆé•·ã‚ã‚Š
 PTMenber mEnemy[10];
 
-const int mFont_RetryLoad = CreateFontToHandle("ƒƒCƒŠƒI", 50, 9, DX_FONTTYPE_NORMAL);
-GameSeen mAllSeen = ƒ^ƒCƒgƒ‹;
-MatiChange mMatiFlg = ‘Ò‚¿ó‚¯‰æ‘œ‚ğ•ÏX‚µ‚È‚¢;
+const int mFont_RetryLoad = CreateFontToHandle("ãƒ¡ã‚¤ãƒªã‚ª", 50, 9, DX_FONTTYPE_NORMAL);
+GameSeen mAllSeen = ã‚¿ã‚¤ãƒˆãƒ«;
+MatiChange mMatiFlg = å¾…ã¡å—ã‘ç”»åƒã‚’å¤‰æ›´ã—ãªã„;
 class Title : public OnClickListener {
 	Button* mStartButton;
 
@@ -209,39 +209,39 @@ class Title : public OnClickListener {
 	char inputBuffer[256] = { 0 };
 	int resultInput = 0;
 
-	const int mFont_Daimei = CreateFontToHandle("ƒƒCƒŠƒI", 70, 3, DX_FONTTYPE_ANTIALIASING_EDGE);
-	const int mFont_Tuduki = CreateFontToHandle("‚l‚r ƒSƒVƒbƒN", 20, 9, DX_FONTTYPE_NORMAL);
+	const int mFont_Daimei = CreateFontToHandle("ãƒ¡ã‚¤ãƒªã‚ª", 70, 3, DX_FONTTYPE_ANTIALIASING_EDGE);
+	const int mFont_Tuduki = CreateFontToHandle("ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯", 20, 9, DX_FONTTYPE_NORMAL);
 
 public:
-	TitleMenu tMenu = ‰‚ß‚©‚ç;
+	TitleMenu tMenu = åˆã‚ã‹ã‚‰;
 
 	Title()
 	{
-		mStartButton = new Button(260, 400, 100, 50, "ƒXƒ^[ƒg");
+		mStartButton = new Button(260, 400, 100, 50, "ã‚¹ã‚¿ãƒ¼ãƒˆ");
 		mStartButton->SetOnClickListener(this);
 
-		mHazimeButton = new Button(80, 200, 100, 50, "‰‚ß‚©‚ç");
+		mHazimeButton = new Button(80, 200, 100, 50, "åˆã‚ã‹ã‚‰");
 		mHazimeButton->SetOnClickListener(this);
 
-		mTudukiButton = new Button(200, 200, 100, 50, "‘±‚«‚©‚ç");
+		mTudukiButton = new Button(200, 200, 100, 50, "ç¶šãã‹ã‚‰");
 		mTudukiButton->SetOnClickListener(this);
 
-		mSettingButton = new Button(320, 200, 100, 50, "İ’è");
+		mSettingButton = new Button(320, 200, 100, 50, "è¨­å®š");
 		mSettingButton->SetOnClickListener(this);
 
-		mEndButton = new Button(440, 200, 100, 50, "I—¹");
+		mEndButton = new Button(440, 200, 100, 50, "çµ‚äº†");
 		mEndButton->SetOnClickListener(this);
 
-		mInpNameButton = new Button(400, 50, 100, 50, "Œˆ’è");
+		mInpNameButton = new Button(400, 50, 100, 50, "æ±ºå®š");
 		mInpNameButton->SetOnClickListener(this);
 
-		mCancelNameButton = new Button(520, 50, 100, 50, "‚â‚è’¼‚·");
+		mCancelNameButton = new Button(520, 50, 100, 50, "ã‚„ã‚Šç›´ã™");
 		mCancelNameButton->SetOnClickListener(this);
 
-		mKetteiTudukiButton = new Button(20, 180, 100, 50, "Œˆ’è");
+		mKetteiTudukiButton = new Button(20, 180, 100, 50, "æ±ºå®š");
 		mKetteiTudukiButton->SetOnClickListener(this);
 
-		mModoruTudukiButton = new Button(20, 240, 100, 50, "–ß‚é");
+		mModoruTudukiButton = new Button(20, 240, 100, 50, "æˆ»ã‚‹");
 		mModoruTudukiButton->SetOnClickListener(this);
 	}
 
@@ -254,15 +254,15 @@ public:
 
 void Title::Output(const int titleGHandle)
 {
-	if (mAllSeen == ƒ^ƒCƒgƒ‹ || mAllSeen == ƒ^ƒCƒgƒ‹ƒƒjƒ…[)
+	if (mAllSeen == ã‚¿ã‚¤ãƒˆãƒ« || mAllSeen == ã‚¿ã‚¤ãƒˆãƒ«ãƒ¡ãƒ‹ãƒ¥ãƒ¼)
 	{
-		/*** ƒ^ƒCƒgƒ‹‰æ–Ê‚Ì•`‰æ ***/
+		/*** ã‚¿ã‚¤ãƒˆãƒ«ç”»é¢ã®æç”» ***/
 		DrawGraph(0, 0, titleGHandle, TRUE);
-		/*** ‘è–¼‚Ì•`‰æ ***/
-		DrawStringToHandle(100, 100, "RPG‚¶‚á‚È‚¢", GetColor(255, 255, 255), mFont_Daimei);
+		/*** é¡Œåã®æç”» ***/
+		DrawStringToHandle(100, 100, "RPGã˜ã‚ƒãªã„", GetColor(255, 255, 255), mFont_Daimei);
 	}
 
-	if (mAllSeen == ƒ^ƒCƒgƒ‹ƒƒjƒ…[)
+	if (mAllSeen == ã‚¿ã‚¤ãƒˆãƒ«ãƒ¡ãƒ‹ãƒ¥ãƒ¼)
 	{
 		Mouse::Instance()->Update();
 		mHazimeButton->Update();
@@ -276,7 +276,7 @@ void Title::Output(const int titleGHandle)
 		mEndButton->Draw();
 	}
 
-	if (mAllSeen == ƒ^ƒCƒgƒ‹)
+	if (mAllSeen == ã‚¿ã‚¤ãƒˆãƒ«)
 	{
 		Mouse::Instance()->Update();
 		mStartButton->Update();
@@ -285,48 +285,48 @@ void Title::Output(const int titleGHandle)
 }
 
 int ManualLength(const char* str) {
-	size_t length = 0; // •¶š”‚ğƒJƒEƒ“ƒg‚·‚é•Ï”
-	while (str[length] != '\0') { // ƒkƒ‹•¶š‚É’B‚·‚é‚Ü‚Åƒ‹[ƒv
-		length++; // •¶š”‚ğ‘‚â‚·
+	size_t length = 0; // æ–‡å­—æ•°ã‚’ã‚«ã‚¦ãƒ³ãƒˆã™ã‚‹å¤‰æ•°
+	while (str[length] != '\0') { // ãƒŒãƒ«æ–‡å­—ã«é”ã™ã‚‹ã¾ã§ãƒ«ãƒ¼ãƒ—
+		length++; // æ–‡å­—æ•°ã‚’å¢—ã‚„ã™
 	}
-	return length; // ÅI“I‚È•¶š”‚ğ•Ô‚·
+	return length; // æœ€çµ‚çš„ãªæ–‡å­—æ•°ã‚’è¿”ã™
 }
 
 int NyuryokuKisoku(const char* str) {
-	size_t length = 0; // •¶š”‚ğƒJƒEƒ“ƒg‚·‚é•Ï”
-	while (str[length] != '\0') { // ƒkƒ‹•¶š‚É’B‚·‚é‚Ü‚Åƒ‹[ƒv
+	size_t length = 0; // æ–‡å­—æ•°ã‚’ã‚«ã‚¦ãƒ³ãƒˆã™ã‚‹å¤‰æ•°
+	while (str[length] != '\0') { // ãƒŒãƒ«æ–‡å­—ã«é”ã™ã‚‹ã¾ã§ãƒ«ãƒ¼ãƒ—
 
-		if (str[length] == ' ' || str[length] == '@')
+		if (str[length] == ' ' || str[length] == 'ã€€')
 		{
 			return -1;
 		}
-		length++; // •¶š”‚ğ‘‚â‚·
+		length++; // æ–‡å­—æ•°ã‚’å¢—ã‚„ã™
 	}
 	return 0;
 }
 
 void Title::InputName(Player& player)
 {
-	if (tMenu == ‰‚ß‚©‚ç && mAllSeen == ƒ^ƒCƒgƒ‹ƒƒjƒ…[’†)
+	if (tMenu == åˆã‚ã‹ã‚‰ && mAllSeen == ã‚¿ã‚¤ãƒˆãƒ«ãƒ¡ãƒ‹ãƒ¥ãƒ¼ä¸­)
 	{
-		mAllSeen = –¼‘O“ü—Í;
+		mAllSeen = åå‰å…¥åŠ›;
 	}
-	else if (mAllSeen == –¼‘O“ü—Í)
+	else if (mAllSeen == åå‰å…¥åŠ›)
 	{
-		/*** –¼‘O“ü—Í ***/
-		DrawString(100, 50, "–¼‘O“ü—Í:@@@@@@@@@@\n         ‘SŠp8•¶š‚Ü‚Å“ü—Í‰Â", GetColor(255, 255, 0));
-		resultInput = KeyInputString(200, 50, 256, inputBuffer, TRUE); // ƒL[“ü—Í‚ğó‚¯æ‚é
-		DrawString(200, 100, inputBuffer, GetColor(255, 255, 255)); // “ü—Í’†‚Ì•¶š—ñ‚ğ•\¦
+		/*** åå‰å…¥åŠ› ***/
+		DrawString(100, 50, "åå‰å…¥åŠ›:ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€\n         å…¨è§’8æ–‡å­—ã¾ã§å…¥åŠ›å¯", GetColor(255, 255, 0));
+		resultInput = KeyInputString(200, 50, 256, inputBuffer, TRUE); // ã‚­ãƒ¼å…¥åŠ›ã‚’å—ã‘å–ã‚‹
+		DrawString(200, 100, inputBuffer, GetColor(255, 255, 255)); // å…¥åŠ›ä¸­ã®æ–‡å­—åˆ—ã‚’è¡¨ç¤º
 
-		nameLength = ManualLength(inputBuffer); // •¶š‚Ì’·‚³
-		karaName = strcmp(inputBuffer, ""); // ‹ó•¶š‚Ì”äŠr
-		errKisoku = NyuryokuKisoku(inputBuffer); // “ü—Í‹K§BƒXƒy[ƒX‹Ö~
+		nameLength = ManualLength(inputBuffer); // æ–‡å­—ã®é•·ã•
+		karaName = strcmp(inputBuffer, ""); // ç©ºæ–‡å­—ã®æ¯”è¼ƒ
+		errKisoku = NyuryokuKisoku(inputBuffer); // å…¥åŠ›è¦åˆ¶ã€‚ã‚¹ãƒšãƒ¼ã‚¹ç¦æ­¢
 		
-		if (resultInput == 1 && karaName > 0 && nameLength <= 8 * 2 && errKisoku == 0) { // Š¿š8•¶š‚Ü‚Å“ü—Í‰Â
-			mAllSeen = –¼‘O“ü—Í–¢Šm’è;
+		if (resultInput == 1 && karaName > 0 && nameLength <= 8 * 2 && errKisoku == 0) { // æ¼¢å­—8æ–‡å­—ã¾ã§å…¥åŠ›å¯
+			mAllSeen = åå‰å…¥åŠ›æœªç¢ºå®š;
 		}
 	}
-	else if (mAllSeen == –¼‘O“ü—Í–¢Šm’è)
+	else if (mAllSeen == åå‰å…¥åŠ›æœªç¢ºå®š)
 	{
 		Mouse::Instance()->Update();
 		mInpNameButton->Update();
@@ -335,39 +335,39 @@ void Title::InputName(Player& player)
 		mCancelNameButton->Draw();
 
 
-		DrawString(100, 50, "–¼‘O“ü—Í:@@@@@@@@@@\n         ‘SŠp8•¶š‚Ü‚Å“ü—Í‰Â", GetColor(255, 255, 0));
+		DrawString(100, 50, "åå‰å…¥åŠ›:ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€\n         å…¨è§’8æ–‡å­—ã¾ã§å…¥åŠ›å¯", GetColor(255, 255, 0));
 		DrawString(200, 50, inputBuffer, GetColor(255, 255, 0));
 	}
-	else if (mAllSeen == –¼‘O“ü—ÍŠm’è)
+	else if (mAllSeen == åå‰å…¥åŠ›ç¢ºå®š)
 	{
 	retryPlayer:
-		// –¼‘O‚É•R‚Ã‚¢‚½‰Šúƒf[ƒ^‚ğ“Ç‚İ‚İ
-		char path[256] = "SyokiData\\ƒvƒŒƒCƒ„[.txt";
+		// åå‰ã«ç´ã¥ã„ãŸåˆæœŸãƒ‡ãƒ¼ã‚¿ã‚’èª­ã¿è¾¼ã¿
+		char path[256] = "SyokiData\\ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼.txt";
 		int errPlayer = player.lord(player, path);
 		if (errPlayer == -1)
 		{
 			WaitTimer(1000.0 / 60);
-			DrawStringToHandle(100, 150, "“Ç‚İ‚İ’†", GetColor(255, 255, 255), mFont_RetryLoad);
+			DrawStringToHandle(100, 150, "èª­ã¿è¾¼ã¿ä¸­", GetColor(255, 255, 255), mFont_RetryLoad);
 			goto retryPlayer;
 		}
 		player.Name = inputBuffer;
 
-		mAllSeen = ‰ŠúƒLƒƒƒ‰‚ğ‘I‘ğ;
+		mAllSeen = åˆæœŸã‚­ãƒ£ãƒ©ã‚’é¸æŠ;
 	}
 }
 
-GameSeen mZennkaiSave = ‘Ò‚¿ó‚¯‰æ–Ê;
+GameSeen mZennkaiSave = å¾…ã¡å—ã‘ç”»é¢;
 void Title::Tuduki(const int tudukiGHandle, Player& player) {
-	if (tMenu == ‘±‚«‚©‚ç && mAllSeen == ƒ^ƒCƒgƒ‹ƒƒjƒ…[’†)
+	if (tMenu == ç¶šãã‹ã‚‰ && mAllSeen == ã‚¿ã‚¤ãƒˆãƒ«ãƒ¡ãƒ‹ãƒ¥ãƒ¼ä¸­)
 	{
-		/*** ‘±‚«‰æ–Ê‚Ì•`‰æ ***/
+		/*** ç¶šãç”»é¢ã®æç”» ***/
 		DrawGraph(0, 0, tudukiGHandle, TRUE);
 
 		Mouse::Instance()->Update();
 		mModoruTudukiButton->Update();
 		mModoruTudukiButton->Draw();
 
-		char path[256] = "SaveData\\ƒvƒŒƒCƒ„[.txt";
+		char path[256] = "SaveData\\ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼.txt";
 		int playerFlg = player.lord(player, path);
 		mZennkaiSave = player.MapName;
 		if (playerFlg == 0)
@@ -381,24 +381,24 @@ void Title::Tuduki(const int tudukiGHandle, Player& player) {
 			for (int i = 0; i < player.Num_PT; i++)
 			{
 				retryPt:
-				std::string str1 = "SaveData\\ƒp[ƒeƒB[" + std::to_string(i + 1) + "l–Ú.txt";
+				std::string str1 = "SaveData\\ãƒ‘ãƒ¼ãƒ†ã‚£ãƒ¼" + std::to_string(i + 1) + "äººç›®.txt";
 				path1 = str1.c_str();
 				mPt[i].lord(mPt[i], path1);
 
-				//TODO;‰æ‘œƒf[ƒ^“Ç‚İ‚İ
+				//TODO;ç”»åƒãƒ‡ãƒ¼ã‚¿èª­ã¿è¾¼ã¿
 
 				if (errPt == -1)
 				{
 					WaitTimer(1000.0 / 60);
-					DrawStringToHandle(100, 150, "“Ç‚İ‚İ’†", GetColor(255, 255, 255), mFont_RetryLoad);
+					DrawStringToHandle(100, 150, "èª­ã¿è¾¼ã¿ä¸­", GetColor(255, 255, 255), mFont_RetryLoad);
 					goto retryPt;
 				}
 			}
 		}
 		else if (playerFlg == -1)
 		{
-			/*** ‘±‚«ƒf[ƒ^‚Ì•`‰æ ***/
-			DrawStringToHandle(100, 150, "ƒZ[ƒuƒf[ƒ^‚ª‚ ‚è‚Ü‚¹‚ñB", GetColor(255, 255, 255), mFont_Tuduki);
+			/*** ç¶šããƒ‡ãƒ¼ã‚¿ã®æç”» ***/
+			DrawStringToHandle(100, 150, "ã‚»ãƒ¼ãƒ–ãƒ‡ãƒ¼ã‚¿ãŒã‚ã‚Šã¾ã›ã‚“ã€‚", GetColor(255, 255, 255), mFont_Tuduki);
 		}
 	}
 }
@@ -419,24 +419,24 @@ private:
 	int mVolume = 0;
 	bool SyokiFlg = false;
 
-	const int mFont_Vlume = CreateFontToHandle("‚l‚r ƒSƒVƒbƒN", 50, 3, DX_FONTTYPE_NORMAL);
+	const int mFont_Vlume = CreateFontToHandle("ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯", 50, 3, DX_FONTTYPE_NORMAL);
 public:
 
 	Kihon()
 	{
-		mKetteiButton = new Button(220, 400, 100, 50, "Œˆ’è");
+		mKetteiButton = new Button(220, 400, 100, 50, "æ±ºå®š");
 		mKetteiButton->SetOnClickListener(this);
 
-		mResetButton = new Button(80, 200, 100, 50, "ƒŠƒZƒbƒg");
+		mResetButton = new Button(80, 200, 100, 50, "ãƒªã‚»ãƒƒãƒˆ");
 		mResetButton->SetOnClickListener(this);
 
-		mModoruButton = new Button(340, 400, 100, 50, "–ß‚é");
+		mModoruButton = new Button(340, 400, 100, 50, "æˆ»ã‚‹");
 		mModoruButton->SetOnClickListener(this);
 
-		mUpButton = new Button(280, 200, 100, 50, "ã‚°‚é");
+		mUpButton = new Button(280, 200, 100, 50, "ä¸Šã’ã‚‹");
 		mUpButton->SetOnClickListener(this);
 
-		mDownButton = new Button(400, 200, 100, 50, "‰º‚°‚é");
+		mDownButton = new Button(400, 200, 100, 50, "ä¸‹ã’ã‚‹");
 		mDownButton->SetOnClickListener(this);
 	}
 
@@ -449,7 +449,7 @@ public:
 
 void Kihon::Setting(char* fileName, int volume, Title title) {
 
-	if (title.tMenu == İ’è && mAllSeen == ƒ^ƒCƒgƒ‹ƒƒjƒ…[’†)
+	if (title.tMenu == è¨­å®š && mAllSeen == ã‚¿ã‚¤ãƒˆãƒ«ãƒ¡ãƒ‹ãƒ¥ãƒ¼ä¸­)
 	{
 		SetVolumeMusic(volume);
 
@@ -472,7 +472,7 @@ void Kihon::Setting(char* fileName, int volume, Title title) {
 			LoadVolume(mVolume, mfileName);
 		}
 
-		DrawStringToHandle(120, 100, "‰¹—Ê:", GetColor(255, 255, 255), mFont_Vlume);
+		DrawStringToHandle(120, 100, "éŸ³é‡:", GetColor(255, 255, 255), mFont_Vlume);
 		int cnt = 0;
 		for (int i = 0; i < mVolume; i += 15)
 		{
@@ -488,7 +488,7 @@ int Kihon::WriteVolume(int volume, char* fileName)
 		return -1;
 	}
 	fprintf(file, "%s %d.\n", "Volume", volume);
-	fclose(file);//ƒtƒ@ƒCƒ‹‚ğ•Â‚¶‚é
+	fclose(file);//ãƒ•ã‚¡ã‚¤ãƒ«ã‚’é–‰ã˜ã‚‹
 	return 0;
 }
 
@@ -504,38 +504,38 @@ int Kihon::LoadVolume(int& volume, char* fileName)
 	return 0;
 }
 
-// ƒJƒEƒ“ƒ^[
-int WaitCounter;	// ŠÔŒv‘ª—p
-int NowTime;	// Œ»İ‚ÌƒtƒŒ[ƒ€‚ÅŒo‰ß‚µ‚½ŠÔ
-int OldTime;	// ‘O‚ÌƒtƒŒ[ƒ€‚Ì‚Æ‚«‚ÉGetNowCountŠÖ”‚Å“¾‚½ƒ^ƒCƒ€
+// ã‚«ã‚¦ãƒ³ã‚¿ãƒ¼
+int WaitCounter;	// æ™‚é–“è¨ˆæ¸¬ç”¨
+int NowTime;	// ç¾åœ¨ã®ãƒ•ãƒ¬ãƒ¼ãƒ ã§çµŒéã—ãŸæ™‚é–“
+int OldTime;	// å‰ã®ãƒ•ãƒ¬ãƒ¼ãƒ ã®ã¨ãã«GetNowCounté–¢æ•°ã§å¾—ãŸã‚¿ã‚¤ãƒ 
 
-// ŠÔˆ—
+// æ™‚é–“å‡¦ç†
 int TimeFunc(int waitTime)
 {
 	int Time;
 
-	// Œ»İ‚ÌŠÔ‚ğ“¾‚é
+	// ç¾åœ¨ã®æ™‚é–“ã‚’å¾—ã‚‹
 	Time = GetNowCount();
 
-	// ¡ƒtƒŒ[ƒ€‚ÅŒo‰ß‚µ‚½ŠÔ‚ğ“¾‚é
+	// ä»Šãƒ•ãƒ¬ãƒ¼ãƒ ã§çµŒéã—ãŸæ™‚é–“ã‚’å¾—ã‚‹
 	NowTime = Time - OldTime;
 
-	// Œ»İ‚ÌŠÔ‚ğ•Û‘¶
+	// ç¾åœ¨ã®æ™‚é–“ã‚’ä¿å­˜
 	OldTime = Time;
 
-	// ƒEƒGƒCƒgƒJƒEƒ“ƒ^‚ÉŒo‰ßŠÔ‚ğ‰ÁZ‚·‚é
+	// ã‚¦ã‚¨ã‚¤ãƒˆã‚«ã‚¦ãƒ³ã‚¿ã«çµŒéæ™‚é–“ã‚’åŠ ç®—ã™ã‚‹
 	WaitCounter += NowTime;
 
-	// ˆê’èŠÔ‚ªŒo‰ß
+	// ä¸€å®šæ™‚é–“ãŒçµŒé
 	if (WaitCounter > waitTime)
 	{
 
-		// ƒJƒEƒ“ƒ^[‚ğ‚O‚É–ß‚·
+		// ã‚«ã‚¦ãƒ³ã‚¿ãƒ¼ã‚’ï¼ã«æˆ»ã™
 		WaitCounter = 0;
 		return 1;
 	}
 
-	// I—¹
+	// çµ‚äº†
 	return 0;
 }
 
@@ -545,18 +545,18 @@ private:
 	Button* mKyara2Button;
 	Button* mKyara3Button;
 
-	const int mFont_Status = CreateFontToHandle("‚l‚r ƒSƒVƒbƒN", 20, 9, DX_FONTTYPE_NORMAL);
+	const int mFont_Status = CreateFontToHandle("ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯", 20, 9, DX_FONTTYPE_NORMAL);
 public:
 
 	SyokiKyara()
 	{
-		mKyara1Button = new Button(0+50, 420, 100, 50, "‘I‘ğ");
+		mKyara1Button = new Button(0+50, 420, 100, 50, "é¸æŠ");
 		mKyara1Button->SetOnClickListener(this);
 
-		mKyara2Button = new Button(215+50, 420, 100, 50, "‘I‘ğ");
+		mKyara2Button = new Button(215+50, 420, 100, 50, "é¸æŠ");
 		mKyara2Button->SetOnClickListener(this);
 
-		mKyara3Button = new Button(430+50, 420, 100, 50, "‘I‘ğ");
+		mKyara3Button = new Button(430+50, 420, 100, 50, "é¸æŠ");
 		mKyara3Button->SetOnClickListener(this);
 	}
 
@@ -567,41 +567,41 @@ public:
 
 char* intToCharArray(int num)
 {
-	std::string str = std::to_string(num); // int‚ğstd::string‚É•ÏŠ·
-	char charArray[100];                     // \•ª‚ÈƒTƒCƒY‚Ìchar”z—ñ‚ğ—pˆÓ
-	strcpy_s(charArray, str.c_str());     // std::string‚ğchar”z—ñ‚ÉƒRƒs[
+	std::string str = std::to_string(num); // intã‚’std::stringã«å¤‰æ›
+	char charArray[100];                     // ååˆ†ãªã‚µã‚¤ã‚ºã®charé…åˆ—ã‚’ç”¨æ„
+	strcpy_s(charArray, str.c_str());     // std::stringã‚’charé…åˆ—ã«ã‚³ãƒ”ãƒ¼
 	return charArray;
 }
 
 void SyokiKyara::Select(const int mon1Handle, const int mon2Handle, const int mon3Handle)
 {
-	if (mAllSeen == ‰ŠúƒLƒƒƒ‰‚ğ‘I‘ğ)
+	if (mAllSeen == åˆæœŸã‚­ãƒ£ãƒ©ã‚’é¸æŠ)
 	{
-		/*** ƒLƒƒƒ‰1‚Ì•`‰æ ***/
+		/*** ã‚­ãƒ£ãƒ©1ã®æç”» ***/
 		DrawGraph(0, 0, mon1Handle, TRUE);
-		/*** ƒLƒƒƒ‰2‚Ì•`‰æ ***/
+		/*** ã‚­ãƒ£ãƒ©2ã®æç”» ***/
 		DrawGraph(215, 0, mon2Handle, TRUE);
-		/*** ƒLƒƒƒ‰3‚Ì•`‰æ ***/
+		/*** ã‚­ãƒ£ãƒ©3ã®æç”» ***/
 		DrawGraph(430, 0, mon3Handle, TRUE);
 
-		// 3ƒLƒƒƒ‰‚ÌƒXƒe[ƒ^ƒX•\¦
+		// 3ã‚­ãƒ£ãƒ©ã®ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹è¡¨ç¤º
 		for (int i = 0; i < 3; i++)
 		{
-			DrawStringToHandle(30 + 215 * i, 170, "–¼‘OF", GetColor(255, 255, 255), mFont_Status);
+			DrawStringToHandle(30 + 215 * i, 170, "åå‰ï¼š", GetColor(255, 255, 255), mFont_Status);
 			DrawStringToHandle(90 + 215 * i, 170, mEnemy[i].name, GetColor(255, 255, 255), mFont_Status);
-			DrawStringToHandle(30 + 215 * i, 200, "‘®«F", GetColor(255, 255, 255), mFont_Status);
+			DrawStringToHandle(30 + 215 * i, 200, "å±æ€§ï¼š", GetColor(255, 255, 255), mFont_Status);
 			DrawStringToHandle(90 + 215 * i, 200, mEnemy[i].zokusei, GetColor(255, 255, 255), mFont_Status);
-			DrawStringToHandle(30 + 215 * i, 230, "  LvF", GetColor(255, 255, 255), mFont_Status);
+			DrawStringToHandle(30 + 215 * i, 230, "  Lvï¼š", GetColor(255, 255, 255), mFont_Status);
 			DrawStringToHandle(90 + 215 * i, 230, intToCharArray(mEnemy[i].level), GetColor(255, 255, 255), mFont_Status);
-			DrawStringToHandle(30 + 215 * i, 260, "  HPF", GetColor(255, 255, 255), mFont_Status);
+			DrawStringToHandle(30 + 215 * i, 260, "  HPï¼š", GetColor(255, 255, 255), mFont_Status);
 			DrawStringToHandle(90 + 215 * i, 260, intToCharArray(mEnemy[i].hp), GetColor(255, 255, 255), mFont_Status);
-			DrawStringToHandle(30 + 215 * i, 290, " StrF", GetColor(255, 255, 255), mFont_Status);
+			DrawStringToHandle(30 + 215 * i, 290, " Strï¼š", GetColor(255, 255, 255), mFont_Status);
 			DrawStringToHandle(90 + 215 * i, 290, intToCharArray(mEnemy[i].str), GetColor(255, 255, 255), mFont_Status);
-			DrawStringToHandle(30 + 215 * i, 320, " DefF", GetColor(255, 255, 255), mFont_Status);
+			DrawStringToHandle(30 + 215 * i, 320, " Defï¼š", GetColor(255, 255, 255), mFont_Status);
 			DrawStringToHandle(90 + 215 * i, 320, intToCharArray(mEnemy[i].def), GetColor(255, 255, 255), mFont_Status);
-			DrawStringToHandle(30 + 215 * i, 350, " IntF", GetColor(255, 255, 255), mFont_Status);
+			DrawStringToHandle(30 + 215 * i, 350, " Intï¼š", GetColor(255, 255, 255), mFont_Status);
 			DrawStringToHandle(90 + 215 * i, 350, intToCharArray(mEnemy[i].maso), GetColor(255, 255, 255), mFont_Status);
-			DrawStringToHandle(30 + 215 * i, 380, "MdefF", GetColor(255, 255, 255), mFont_Status);
+			DrawStringToHandle(30 + 215 * i, 380, "Mdefï¼š", GetColor(255, 255, 255), mFont_Status);
 			DrawStringToHandle(90 + 215 * i, 380, intToCharArray(mEnemy[i].mdef), GetColor(255, 255, 255), mFont_Status);
 		}
 		Mouse::Instance()->Update();
@@ -627,25 +627,25 @@ public:
 
 	GameMain()
 	{
-		mPtSetButton = new Button(0 + 30, 420, 100, 50, "ƒp[ƒeƒB•Ò¬");
+		mPtSetButton = new Button(0 + 30, 420, 100, 50, "ãƒ‘ãƒ¼ãƒ†ã‚£ç·¨æˆ");
 		mPtSetButton->SetOnClickListener(this);
 
-		mSoubiButton = new Button(120 + 30, 420, 100, 50, "‘•”õˆê——");
+		mSoubiButton = new Button(120 + 30, 420, 100, 50, "è£…å‚™ä¸€è¦§");
 		mSoubiButton->SetOnClickListener(this);
 
-		mSaveButton = new Button(240 + 30, 420, 100, 50, "ƒZ[ƒu");
+		mSaveButton = new Button(240 + 30, 420, 100, 50, "ã‚»ãƒ¼ãƒ–");
 		mSaveButton->SetOnClickListener(this);
 
-		mKyaraButton = new Button(360 + 30, 420, 100, 50, "ƒLƒƒƒ‰ˆê——");
+		mKyaraButton = new Button(360 + 30, 420, 100, 50, "ã‚­ãƒ£ãƒ©ä¸€è¦§");
 		mKyaraButton->SetOnClickListener(this);
 
-		mGatyaButton = new Button(480 + 30, 420, 100, 50, "ƒKƒ`ƒƒ");
+		mGatyaButton = new Button(480 + 30, 420, 100, 50, "ã‚¬ãƒãƒ£");
 		mGatyaButton->SetOnClickListener(this);
 
-		mQuestButton = new Button(30, 320, 100, 50, "ƒNƒGƒXƒg");
+		mQuestButton = new Button(30, 320, 100, 50, "ã‚¯ã‚¨ã‚¹ãƒˆ");
 		mQuestButton->SetOnClickListener(this);
 
-		mSoftButton = new Button(30, 220, 100, 50, "ƒ\ƒtƒg‰ğà");
+		mSoftButton = new Button(30, 220, 100, 50, "ã‚½ãƒ•ãƒˆè§£èª¬");
 		mSoftButton->SetOnClickListener(this);
 	}
 
@@ -656,11 +656,11 @@ public:
 
 void GameMain::Play(const int matiWakuHandle, const int  matiImgHandle)
 {
-	if (mAllSeen == ‘Ò‚¿ó‚¯‰æ–Ê)
+	if (mAllSeen == å¾…ã¡å—ã‘ç”»é¢)
 	{
-		/*** ‘Ò‚¿ó‚¯‰æ–Ê‚Ì•`‰æ ***/
+		/*** å¾…ã¡å—ã‘ç”»é¢ã®æç”» ***/
 		DrawGraph(0, 0, matiWakuHandle, TRUE);
-		/*** ‘Ò‚¿ó‚¯‰æ‘œ‚Ì•`‰æ ***/
+		/*** å¾…ã¡å—ã‘ç”»åƒã®æç”» ***/
 		DrawGraph(320, 240, matiImgHandle, TRUE);
 		Mouse::Instance()->Update();
 		mPtSetButton->Update();
@@ -688,16 +688,16 @@ public:
 
 	MenuPt()
 	{
-		//mPtSetButton = new Button(0 + 30, 420, 100, 50, "•ÒW");
+		//mPtSetButton = new Button(0 + 30, 420, 100, 50, "ç·¨é›†");
 		//mPtSetButton->SetOnClickListener(this);
 
-		//mPtSetButton = new Button(0 + 30, 420, 100, 50, "•ÒW");
+		//mPtSetButton = new Button(0 + 30, 420, 100, 50, "ç·¨é›†");
 		//mPtSetButton->SetOnClickListener(this);
 
-		//mPtSetButton = new Button(0 + 30, 420, 100, 50, "•ÒW");
+		//mPtSetButton = new Button(0 + 30, 420, 100, 50, "ç·¨é›†");
 		//mPtSetButton->SetOnClickListener(this);
 
-		//mPtSetButton = new Button(0 + 30, 420, 100, 50, "–ß‚é");
+		//mPtSetButton = new Button(0 + 30, 420, 100, 50, "æˆ»ã‚‹");
 		//mPtSetButton->SetOnClickListener(this);
 	}
 
@@ -706,35 +706,35 @@ public:
 
 void Title::OnClick(View* view) {
 	if (view == mStartButton) {
-		mAllSeen = ƒ^ƒCƒgƒ‹ƒƒjƒ…[;
+		mAllSeen = ã‚¿ã‚¤ãƒˆãƒ«ãƒ¡ãƒ‹ãƒ¥ãƒ¼;
 	}
 	if (view == mHazimeButton) {
-		tMenu = ‰‚ß‚©‚ç;
-		mAllSeen = ƒ^ƒCƒgƒ‹ƒƒjƒ…[’†;
+		tMenu = åˆã‚ã‹ã‚‰;
+		mAllSeen = ã‚¿ã‚¤ãƒˆãƒ«ãƒ¡ãƒ‹ãƒ¥ãƒ¼ä¸­;
 	}
 	if (view == mTudukiButton) {
-		tMenu = ‘±‚«‚©‚ç;
-		mAllSeen = ƒ^ƒCƒgƒ‹ƒƒjƒ…[’†;
+		tMenu = ç¶šãã‹ã‚‰;
+		mAllSeen = ã‚¿ã‚¤ãƒˆãƒ«ãƒ¡ãƒ‹ãƒ¥ãƒ¼ä¸­;
 	}
 	if (view == mSettingButton) {
-		tMenu = İ’è;
-		mAllSeen = ƒ^ƒCƒgƒ‹ƒƒjƒ…[’†;
+		tMenu = è¨­å®š;
+		mAllSeen = ã‚¿ã‚¤ãƒˆãƒ«ãƒ¡ãƒ‹ãƒ¥ãƒ¼ä¸­;
 	}
 	if (view == mEndButton) {
-		tMenu = I—¹;
-		mAllSeen = ƒ^ƒCƒgƒ‹ƒƒjƒ…[’†;
+		tMenu = çµ‚äº†;
+		mAllSeen = ã‚¿ã‚¤ãƒˆãƒ«ãƒ¡ãƒ‹ãƒ¥ãƒ¼ä¸­;
 	}
 	if (view == mInpNameButton) {
-		mAllSeen = –¼‘O“ü—ÍŠm’è;
+		mAllSeen = åå‰å…¥åŠ›ç¢ºå®š;
 	}
 	if (view == mCancelNameButton) {
-		mAllSeen = –¼‘O“ü—Í;
+		mAllSeen = åå‰å…¥åŠ›;
 	}
 	if (view == mKetteiTudukiButton) {
-		mAllSeen = mZennkaiSave; // ‘O‰ñ‚Ì•Û‘¶ƒf[ƒ^
+		mAllSeen = mZennkaiSave; // å‰å›ã®ä¿å­˜ãƒ‡ãƒ¼ã‚¿
 	}
 	if (view == mModoruTudukiButton) {
-		mAllSeen = ƒ^ƒCƒgƒ‹ƒƒjƒ…[;
+		mAllSeen = ã‚¿ã‚¤ãƒˆãƒ«ãƒ¡ãƒ‹ãƒ¥ãƒ¼;
 	}
 	
 }
@@ -742,7 +742,7 @@ void Title::OnClick(View* view) {
 void Kihon::OnClick(View* view)
 {
 	if (view == mKetteiButton) {
-		mAllSeen = ƒ^ƒCƒgƒ‹ƒƒjƒ…[;
+		mAllSeen = ã‚¿ã‚¤ãƒˆãƒ«ãƒ¡ãƒ‹ãƒ¥ãƒ¼;
 		WriteVolume(mVolume, mfileName);
 		SyokiFlg = false;
 	}
@@ -751,12 +751,12 @@ void Kihon::OnClick(View* view)
 		SyokiFlg = false;
 	}
 	if (view == mModoruButton) {
-		mAllSeen = ƒ^ƒCƒgƒ‹ƒƒjƒ…[;
+		mAllSeen = ã‚¿ã‚¤ãƒˆãƒ«ãƒ¡ãƒ‹ãƒ¥ãƒ¼;
 		LoadVolume(mVolume, mfileName);
 		SyokiFlg = false;
 	}
 	if (view == mUpButton) {
-		mVolume += 15; // 255€15=17“–•ª
+		mVolume += 15; // 255Ã·15=17å½“åˆ†
 		if (mVolume > 255)
 		{
 			mVolume = 255;
@@ -776,7 +776,7 @@ void Kihon::OnClick(View* view)
 
 void SyokiKyara::OnClick(View* view)
 {
-	char str1[256] = "}ŠÓ‚ ‚è";
+	char str1[256] = "å›³é‘‘ã‚ã‚Š";
 	if (view == mKyara1Button) {
 		mPt[0] = mMon[0] = mEnemy[0];
 		mPt[0].imgNum = 1;
@@ -792,50 +792,50 @@ void SyokiKyara::OnClick(View* view)
 		mPt[0].imgNum = 3;
 		mPt[0].zukan = mMon[2].zukan = str1;
 	}
-	mAllSeen = ‘Ò‚¿ó‚¯‰æ–Ê;
-	mMatiFlg = ‘Ò‚¿ó‚¯‰æ‘œ‚ğ•ÏX‚·‚é;
+	mAllSeen = å¾…ã¡å—ã‘ç”»é¢;
+	mMatiFlg = å¾…ã¡å—ã‘ç”»åƒã‚’å¤‰æ›´ã™ã‚‹;
 }
 
 void GameMain::OnClick(View* view)
 {
 	if (view == mPtSetButton) {
-		mAllSeen = ƒƒjƒ…[ƒp[ƒeƒBİ’è;
+		mAllSeen = ãƒ¡ãƒ‹ãƒ¥ãƒ¼ãƒ‘ãƒ¼ãƒ†ã‚£è¨­å®š;
 	}
 	if (view == mSoubiButton) {
-		mAllSeen = ƒƒjƒ…[‘•”õˆê——;
+		mAllSeen = ãƒ¡ãƒ‹ãƒ¥ãƒ¼è£…å‚™ä¸€è¦§;
 	}
 	if (view == mSaveButton) {
-		mAllSeen = ƒƒjƒ…[ƒZ[ƒu;
+		mAllSeen = ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã‚»ãƒ¼ãƒ–;
 	}
 	if (view == mKyaraButton) {
-		mAllSeen = ƒƒjƒ…[ƒLƒƒƒ‰ˆê——;
+		mAllSeen = ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã‚­ãƒ£ãƒ©ä¸€è¦§;
 	}
 	if (view == mGatyaButton) {
-		mAllSeen = ƒƒjƒ…[ƒKƒ`ƒƒ;
+		mAllSeen = ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã‚¬ãƒãƒ£;
 	}
 	if (view == mQuestButton) {
-		mAllSeen = ƒƒjƒ…[ƒNƒGƒXƒg;
+		mAllSeen = ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã‚¯ã‚¨ã‚¹ãƒˆ;
 	}
 	if (view == mSoftButton) {
-		mAllSeen = ƒƒjƒ…[ƒ\ƒtƒg‰ğà;
+		mAllSeen = ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã‚½ãƒ•ãƒˆè§£èª¬;
 	}
 }
 
 void MenuPt::OnClick(View* view)
 {
 	//if (view == mPtSetButton) {
-		//mAllSeen = ƒƒjƒ…[ƒp[ƒeƒBİ’è;
+		//mAllSeen = ãƒ¡ãƒ‹ãƒ¥ãƒ¼ãƒ‘ãƒ¼ãƒ†ã‚£è¨­å®š;
 	//}
 }
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
 {
-	// ƒEƒBƒ“ƒhƒEƒ‚[ƒh‚Éİ’è
+	// ã‚¦ã‚£ãƒ³ãƒ‰ã‚¦ãƒ¢ãƒ¼ãƒ‰ã«è¨­å®š
 	ChangeWindowMode(TRUE);
-	// DXƒ‰ƒCƒuƒ‰ƒŠ‰Šú‰»ˆ—
+	// DXãƒ©ã‚¤ãƒ–ãƒ©ãƒªåˆæœŸåŒ–å‡¦ç†
 	if (DxLib_Init() < 0) {
-		//ƒGƒ‰[‚È‚çI—¹‚·‚é
-		DxLib_End();    // DXƒ‰ƒCƒuƒ‰ƒŠI—¹ˆ—
+		//ã‚¨ãƒ©ãƒ¼ãªã‚‰çµ‚äº†ã™ã‚‹
+		DxLib_End();    // DXãƒ©ã‚¤ãƒ–ãƒ©ãƒªçµ‚äº†å‡¦ç†
 		return -1;
 	}
 	Title title;
@@ -845,16 +845,16 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
 	const int titleHandle = LoadGraph("backImg\\Title.png");
 	const int tudukiHandle = LoadGraph("backImg\\Tuduki.png");
-	const int matiWakuHandle = LoadGraph("backImg\\‘Ò‚¿ó‚¯‰æ–Ê.png");
+	const int matiWakuHandle = LoadGraph("backImg\\å¾…ã¡å—ã‘ç”»é¢.png");
 
 	if (titleHandle > 0 || tudukiHandle > 0 || matiWakuHandle > 0) {
 	}
 	else {
-		MessageBox(NULL, "ƒCƒ[ƒWƒY‚Ì“Ç¸”s", "ƒGƒ‰[", MB_ICONERROR | MB_OK);
-		DxLib_End();    // DXƒ‰ƒCƒuƒ‰ƒŠI—¹ˆ—
+		MessageBox(NULL, "ã‚¤ãƒ¡ãƒ¼ã‚¸ã‚ºã®èª­è¾¼å¤±æ•—", "ã‚¨ãƒ©ãƒ¼", MB_ICONERROR | MB_OK);
+		DxLib_End();    // DXãƒ©ã‚¤ãƒ–ãƒ©ãƒªçµ‚äº†å‡¦ç†
 		return 0;
 	}
-	int monHandle[10] = { 0 }; // ‘S‚Ä‚Ìƒ‚ƒ“ƒXƒ^[10‘Ì
+	int monHandle[10] = { 0 }; // å…¨ã¦ã®ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼10ä½“
 
 	std::string str1;
 	const char* monFile1;
@@ -868,102 +868,102 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	const char* monFile3;
 	int matiImgHandle = -1;
 
-	// ‘S‚Ä‚ÌƒGƒlƒ~[‚ğ“Ç‚İ‚Ş
+	// å…¨ã¦ã®ã‚¨ãƒãƒŸãƒ¼ã‚’èª­ã¿è¾¼ã‚€
 	int errValue = -1;
 	int numValue = sizeof(monHandle) / sizeof(int);
 	for (int i = 0; i < numValue; i++)
 	{
-		str1 = "SyokiData\\ƒ‚ƒ“ƒXƒ^[" + std::to_string(i + 1) + ".txt";
+		str1 = "SyokiData\\ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼" + std::to_string(i + 1) + ".txt";
 		monFile1 = str1.c_str();
 		errValue = mEnemy[i].lord(mEnemy[i], monFile1);
 
-		strErr1 = str1 + "‚Ì“Ç¸”s";
+		strErr1 = str1 + "ã®èª­è¾¼å¤±æ•—";
 		if (errValue == -1) {
-			MessageBox(NULL, strErr1.c_str(), "ƒGƒ‰[", MB_ICONERROR | MB_OK);
-			DxLib_End();    // DXƒ‰ƒCƒuƒ‰ƒŠI—¹ˆ—
+			MessageBox(NULL, strErr1.c_str(), "ã‚¨ãƒ©ãƒ¼", MB_ICONERROR | MB_OK);
+			DxLib_End();    // DXãƒ©ã‚¤ãƒ–ãƒ©ãƒªçµ‚äº†å‡¦ç†
 			return 0;
 		}
 
-		str2 = "monImg\\ƒ‚ƒ“ƒXƒ^[" + std::to_string(i + 1) + ".png";
+		str2 = "monImg\\ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼" + std::to_string(i + 1) + ".png";
 		monFile2 = str2.c_str();
 		monHandle[i] = LoadGraph(monFile2);
 
-		strErr2 = str2 + "‚Ì“Ç¸”s";
+		strErr2 = str2 + "ã®èª­è¾¼å¤±æ•—";
 		if (monHandle[i] > 0) {
 		}
 		else {
-			MessageBox(NULL, strErr2.c_str(), "ƒGƒ‰[", MB_ICONERROR | MB_OK);
-			DxLib_End();    // DXƒ‰ƒCƒuƒ‰ƒŠI—¹ˆ—
+			MessageBox(NULL, strErr2.c_str(), "ã‚¨ãƒ©ãƒ¼", MB_ICONERROR | MB_OK);
+			DxLib_End();    // DXãƒ©ã‚¤ãƒ–ãƒ©ãƒªçµ‚äº†å‡¦ç†
 			return 0;
 		}
 	}
 
 	int volume = 0;
-	char volumePath[256] = "SaveData\\‰æ–Êİ’è.txt";
-	char syokiVolumePath[256] = "SyokiData\\‰æ–Êİ’è.txt";
-	// ‰¹—Ê’l‚Ì“Ç‚İ‚İ
+	char volumePath[256] = "SaveData\\ç”»é¢è¨­å®š.txt";
+	char syokiVolumePath[256] = "SyokiData\\ç”»é¢è¨­å®š.txt";
+	// éŸ³é‡å€¤ã®èª­ã¿è¾¼ã¿
 	int errVolume = kihon.LoadVolume(volume, volumePath);
-	// ‰Šúƒf[ƒ^“Ç‚İ‚İ
+	// åˆæœŸãƒ‡ãƒ¼ã‚¿èª­ã¿è¾¼ã¿
 	if (errVolume == -1)
 	{
 		errVolume = kihon.LoadVolume(volume, syokiVolumePath);
 		if (errVolume == -1) {
-			MessageBox(NULL, "‰¹—Êƒtƒ@ƒCƒ‹‚Ì“Ç¸”s", "ƒGƒ‰[", MB_ICONERROR | MB_OK);
-			DxLib_End();    // DXƒ‰ƒCƒuƒ‰ƒŠI—¹ˆ—
+			MessageBox(NULL, "éŸ³é‡ãƒ•ã‚¡ã‚¤ãƒ«ã®èª­è¾¼å¤±æ•—", "ã‚¨ãƒ©ãƒ¼", MB_ICONERROR | MB_OK);
+			DxLib_End();    // DXãƒ©ã‚¤ãƒ–ãƒ©ãƒªçµ‚äº†å‡¦ç†
 			return 0;
 		}
 		errVolume = kihon.WriteVolume(volume, volumePath);
 		if (errVolume == -1) {
-			MessageBox(NULL, "‰¹—Êƒtƒ@ƒCƒ‹‚Ì‘¸”s", "ƒGƒ‰[", MB_ICONERROR | MB_OK);
-			DxLib_End();    // DXƒ‰ƒCƒuƒ‰ƒŠI—¹ˆ—
+			MessageBox(NULL, "éŸ³é‡ãƒ•ã‚¡ã‚¤ãƒ«ã®æ›¸è¾¼å¤±æ•—", "ã‚¨ãƒ©ãƒ¼", MB_ICONERROR | MB_OK);
+			DxLib_End();    // DXãƒ©ã‚¤ãƒ–ãƒ©ãƒªçµ‚äº†å‡¦ç†
 			return 0;
 		}
 	}
 	SetVolumeMusic(volume);
 
-	//•`‰ææ‚ğ— ‰æ–Ê‚É‚·‚é
+	//æç”»å…ˆã‚’è£ç”»é¢ã«ã™ã‚‹
 	SetDrawScreen(DX_SCREEN_BACK);
 
-	// while(— ‰æ–Ê‚ğ•\‰æ–Ê‚É”½‰f, ƒƒbƒZ[ƒWˆ—, ‰æ–ÊƒNƒŠƒA)
+	// while(è£ç”»é¢ã‚’è¡¨ç”»é¢ã«åæ˜ , ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å‡¦ç†, ç”»é¢ã‚¯ãƒªã‚¢)
 	while (ScreenFlip() == 0 && ProcessMessage() == 0 && ClearDrawScreen() == 0) {
-		if (ProcessMessage() != 0) { // ƒƒbƒZ[ƒWˆ—
-			break;//ƒEƒBƒ“ƒhƒE‚Ì~ƒ{ƒ^ƒ“‚ª‰Ÿ‚³‚ê‚½‚çƒ‹[ƒv‚ğ”²‚¯‚é
+		if (ProcessMessage() != 0) { // ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å‡¦ç†
+			break;//ã‚¦ã‚£ãƒ³ãƒ‰ã‚¦ã®Ã—ãƒœã‚¿ãƒ³ãŒæŠ¼ã•ã‚ŒãŸã‚‰ãƒ«ãƒ¼ãƒ—ã‚’æŠœã‘ã‚‹
 		}
-		if (title.tMenu == I—¹)
+		if (title.tMenu == çµ‚äº†)
 		{
 			break;
 		}
 		WaitTimer(1000.0 / 60);
 
-		ClearDrawScreen(); // ‰æ–Ê‚ğÁ‚·
+		ClearDrawScreen(); // ç”»é¢ã‚’æ¶ˆã™
 
-		title.Output(titleHandle); // ƒ^ƒCƒgƒ‹‚ğ•`‰æ
-		title.InputName(mPlayer); // –¼‘O“ü—Í
-		title.Tuduki(tudukiHandle, mPlayer); // ‘±‚«‚©‚ç
-		kihon.Setting(volumePath, volume, title); // İ’è
+		title.Output(titleHandle); // ã‚¿ã‚¤ãƒˆãƒ«ã‚’æç”»
+		title.InputName(mPlayer); // åå‰å…¥åŠ›
+		title.Tuduki(tudukiHandle, mPlayer); // ç¶šãã‹ã‚‰
+		kihon.Setting(volumePath, volume, title); // è¨­å®š
 
-		syokiKyara.Select(monHandle[0], monHandle[1], monHandle[2]);// ‰ŠúƒLƒƒƒ‰‚ğ‘I‘ğ
+		syokiKyara.Select(monHandle[0], monHandle[1], monHandle[2]);// åˆæœŸã‚­ãƒ£ãƒ©ã‚’é¸æŠ
 
-		if (mMatiFlg == ‘Ò‚¿ó‚¯‰æ‘œ‚ğ•ÏX‚·‚é)
+		if (mMatiFlg == å¾…ã¡å—ã‘ç”»åƒã‚’å¤‰æ›´ã™ã‚‹)
 		{
-			str3 = "monImg\\ƒ‚ƒ“ƒXƒ^[" + std::to_string(mPt[0].imgNum) + ".png";
+			str3 = "monImg\\ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼" + std::to_string(mPt[0].imgNum) + ".png";
 			monFile3 = str3.c_str();
 			matiImgHandle = LoadGraph(monFile3);
-			mMatiFlg = ‘Ò‚¿ó‚¯‰æ‘œ‚ğ•ÏX‚µ‚È‚¢;
+			mMatiFlg = å¾…ã¡å—ã‘ç”»åƒã‚’å¤‰æ›´ã—ãªã„;
 
 			if (matiImgHandle > 0) {
 			}
 			else {
-				MessageBox(NULL, strErr2.c_str(), "ƒGƒ‰[", MB_ICONERROR | MB_OK);
-				DxLib_End();    // DXƒ‰ƒCƒuƒ‰ƒŠI—¹ˆ—
+				MessageBox(NULL, str3.c_str(), "ã‚¨ãƒ©ãƒ¼", MB_ICONERROR | MB_OK);
+				DxLib_End();    // DXãƒ©ã‚¤ãƒ–ãƒ©ãƒªçµ‚äº†å‡¦ç†
 				return 0;
 			}
 		}
-		gameMain.Play(matiWakuHandle, matiImgHandle); // ƒQ[ƒ€‚ğƒvƒŒƒC
+		gameMain.Play(matiWakuHandle, matiImgHandle); // ã‚²ãƒ¼ãƒ ã‚’ãƒ—ãƒ¬ã‚¤
 
-		ScreenFlip(); //— ‰æ–Ê‚ğ•\‰æ–Ê‚É”½‰f
+		ScreenFlip(); //è£ç”»é¢ã‚’è¡¨ç”»é¢ã«åæ˜ 
 	}
 
-	DxLib_End();    // DXƒ‰ƒCƒuƒ‰ƒŠI—¹ˆ—
+	DxLib_End();    // DXãƒ©ã‚¤ãƒ–ãƒ©ãƒªçµ‚äº†å‡¦ç†
 	return 0;
 }
